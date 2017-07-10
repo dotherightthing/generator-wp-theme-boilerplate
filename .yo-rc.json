@@ -1,0 +1,21 @@
+{
+  "generator-wp-plugin-boilerplate": {
+
+    "nameFriendly":           "automatic",
+    "nameAdminMenu":          "automatic",
+    "urlAdminMenu":           "automatic",
+    "description":            "A boilerplate for new WordPress themes",
+    "tags":                   "boilerplate",
+    "homepage":               "http://dotherightthing.co.nz",
+    "license":                "GPLv2 or later",
+    "licenseUrl":             "http://www.gnu.org/licenses/gpl-2.0.html",
+    "donateUrl":              "http://dotherightthing.co.nz",
+    "wpVersion":              "4.8",
+    "authorName":             "Dan Smith",
+    "authorWordPressName":    "dotherightthingnz",
+    "authorEmail":            "dev@dotherightthing.co.nz",
+    "authorUrl":              "http://dotherightthing.co.nz",
+    "repositoryType":         "git",
+    "repositoryUrl":          "git@github.com:dotherightthing/generator-wp-theme-boilerplate.git"
+  }
+}
