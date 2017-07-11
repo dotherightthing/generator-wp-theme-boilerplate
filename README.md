@@ -1,24 +1,24 @@
 # WordPress Theme Boilerplate
 
-A best-practice boilerplate for rapid theme development.
-
-Originally based on Twenty_Seventeen.
+A best-practice boilerplate for theme development.
 
 ## Installation
 
-### A. Create the theme folder
-
-1. Clone this repository to your WordPress themes folder
-1. Rename `generator-wp-plugin-boilerplate` to `your-theme-name` (this should be less than 50 characters, for compatibility with Bower)
-1. Then launch Terminal from this folder
-
-### B. Install requirements
+### A. Install the generator dependencies
 
 1. Node & NPM: <https://nodejs.org/>
 1. Git: <https://git-scm.com/>
 1. [Bower](http://bower.io/): `$ npm install -g bower`
 1. Composer: <https://getcomposer.org/download/>
 1. [Yeoman](http://yeoman.io/): `$ sudo npm install -g yo`
+
+### B. Install the generator
+
+1. Clone this repository to a folder
+1. Open Terminal
+1. `cd`, into the downloaded folder
+1. `npm install`
+1. `sudo npm link`
 
 ### C. Set Defaults (optional)
 
@@ -28,34 +28,24 @@ These will then become the defaults when running the Yeoman generator (`yo`).
 
 ### D. Scaffold project
 
-```
-npm install
+1. Create a folder for the theme
+1. Open Terminal
+1. `cd`, into the folder
+1. yo wp-theme-boilerplate
 
-sudo npm link
-
-yo wp-theme-boilerplate
-```
-
-When you encounter the following prompts, hit ENTER to confirm that it's ok to copy over the replacement files:
-
-```
-conflict package.json
-? Overwrite package.json? (Ynaxdh)
-```
-
-```
-conflict .gitignore
-? Overwrite .gitignore? (Ynaxdh)
-```
-
---
+---
 
 ## Notes
+
+### Testing
+
+There aren't any tests yet, but these are on the roadmap.
+
+PHPUnit is currently at version 6.1, but this project uses the Old Stable Release of 5.7 to work with PHP 5.6. This version is supported until February 2018, see https://phpunit.de/.
 
 ### Publishing
 
 The theme name should not include the word 'theme'
-
 
 ### Translation
 
@@ -63,10 +53,8 @@ The theme name should not include the word 'theme'
 
 ## Respect is due
 
-This plugin is the result of hours of research, including these great resources:
+This theme is the result of hours of research, including these great resources:
 
-* [How to Build a WordPress Plugin](https://teamtreehouse.com/library/how-to-build-a-wordpress-plugin)
-* [WordPress-Plugin-Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate/)
 * [Create A Custom Yeoman Generator in 4 Easy Steps](https://scotch.io/tutorials/create-a-custom-yeoman-generator-in-4-easy-steps)
 * [Building a Yeoman Generator](https://webcake.co/building-a-yeoman-generator/)
-* [JSONPlaceholder - Fake Online REST API for Testing and Prototyping](http://jsonplaceholder.typicode.com/)
+* WordPress TwentySeventeen theme
