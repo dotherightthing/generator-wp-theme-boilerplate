@@ -1,6 +1,6 @@
-# WordPress Theme Boilerplate
+# DTRT WordPress Theme Boilerplate Generator
 
-A best-practice boilerplate for theme development.
+Generate a best-practice boilerplate for [WordPress](https://wordpress.org/) theme development.
 
 ## Installation
 
