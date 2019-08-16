@@ -1,6 +1,6 @@
 # DTRT WordPress Theme Boilerplate Generator
 
-[![GitHub tags](https://img.shields.io/github/tag/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/tags) [![Build Status](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate.svg?branch=master)](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/issues)
+[![GitHub tags](https://img.shields.io/github/tag/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/tags) [![Build Status](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate.svg?branch=master)](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/issues) [![GitHub wiki](https://img.shields.io/badge/documentation-wiki-lightgrey.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki)
 
 Generate a best-practice boilerplate for [WordPress](https://wordpress.org/) theme development.
 
