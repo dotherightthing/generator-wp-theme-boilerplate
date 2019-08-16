@@ -1,55 +1,38 @@
 # DTRT WordPress Theme Boilerplate Generator
 
+[![GitHub tags](https://img.shields.io/github/tag/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/tags) [![Build Status](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate.svg?branch=master)](https://travis-ci.org/dotherightthing/generator-wpdtrt-theme-boilerplate) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/generator-wpdtrt-theme-boilerplate.svg)](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/issues)
+
 Generate a best-practice boilerplate for [WordPress](https://wordpress.org/) theme development.
+
+The generated theme utilises the functionality packaged in [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt).
+
+***
 
 ## Installation
 
-### A. Install the generator dependencies
+1. [Create a Git repo to store the code](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Create-a-Git-repo-to-store-the-code)
+2. [Install the generator dependencies](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Install-the-generator-dependencies)
+3. [Install the generator](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Install-the-generator)
+4. [Use the generator to scaffold a custom theme](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Use-the-generator-to-scaffold-a-custom-theme)
+5. [Set up Travis CI](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Set-up-Travis-CI)
+6. Use the features of the [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt)
 
-1. Node & NPM: <https://nodejs.org/>
-1. Git: <https://git-scm.com/>
-1. [Bower](http://bower.io/): `$ npm install -g bower`
-1. Composer: <https://getcomposer.org/download/>
-1. [Yeoman](http://yeoman.io/): `$ sudo npm install -g yo`
+## Maintenance
 
-### B. Install the generator
+This generator will need to be periodically updated as technologies change:
 
-1. Clone this repository to a folder
-1. Open Terminal
-1. `cd`, into the downloaded folder
-1. `npm install`
-1. `sudo npm link`
-
-### C. Set Defaults (optional)
-
-Edit `.yo-rc.json`, to substitute in your own values.
-
-These will then become the defaults when running the Yeoman generator (`yo`).
-
-### D. Scaffold project
-
-1. Create a folder for the theme
-1. Open Terminal
-1. `cd`, into the folder
-1. yo wp-theme-boilerplate
-
----
-
-## Notes
-
-### Testing
-
-There aren't any tests yet, but these are on the roadmap.
-
-PHPUnit is currently at version 6.1, but this project uses the Old Stable Release of 5.7 to work with PHP 5.6. This version is supported until February 2018, see https://phpunit.de/.
-
-### Publishing
-
-The theme name should not include the word 'theme'
-
-### Translation
-
-`.pot` files can be generated using the [WordPress i18n tools](https://developer.wordpress.org/themes/functionality/localization/#wordpress-i18n-tools)
+1. Update a previously generated theme as necessary, see [Appendix: Generated themes](https://github.com/dotherightthing/generator-wpdtrt-theme-boilerplate/wiki/Appendix:-Generated-themes)
+2. Copy relevant changes over to the [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt)
+3. Build, test, version & release the updated [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt), see [Release an update](https://github.com/dotherightthing/wpdtrt/wiki/Workflows#release-an-update)
+4. Copy relevant changes over to the *DTRT WordPress Theme Boilerplate Generator*
+5. Update the version of the [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt) required by the *DTRT WordPress Theme Boilerplate Generator* in `./generators/app/templates/composer.json`, or leave it as `dev-master` (the latest version):
+  ```
+  "require": {
+    "dotherightthing/wpdtrt": "dev-master",
+  },  
+  ```
+6. Build, test, version & release the updated *DTRT WordPress Theme Boilerplate Generator*
+7. Update previously generated themes to reference the updated [DTRT WordPress Parent Theme](https://github.com/dotherightthing/wpdtrt) and *DTRT WordPress Theme Boilerplate Generator*, see [Release an update](https://github.com/dotherightthing/wpdtrt/wiki/Workflows#release-an-update)
 
 ## Respect is due
 
